@@ -1,0 +1,22 @@
+uuid: 2b687dcb-c9c6-4882-bfb1-3d08cf6befce
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: articulos
+label: Articulos
+type: 'canonical_entities:node'
+pattern: '/noticias/[node:title]'
+selection_criteria:
+  fb9a8a6b-bf44-45ef-bc52-a46e8a3453ab:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: fb9a8a6b-bf44-45ef-bc52-a46e8a3453ab
+selection_logic: and
+weight: -5
+relationships: {  }
