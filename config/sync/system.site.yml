@@ -1,0 +1,14 @@
+uuid: d45ab562-edb4-4d50-bd2c-94ad6ec632f4
+name: 'El blog de Juan'
+mail: hello@juandeleon.mx
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

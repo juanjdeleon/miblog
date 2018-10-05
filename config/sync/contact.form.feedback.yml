@@ -1,0 +1,14 @@
+uuid: a88e1f52-5861-4690-a045-dabd68100be5
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - hello@juandeleon.mx
+reply: ''
+weight: 0
+message: 'Se ha enviado su mensaje.'
+redirect: ''

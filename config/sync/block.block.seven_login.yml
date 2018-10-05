@@ -1,0 +1,22 @@
+uuid: 23adb5fb-098d-4feb-8e3d-0754d64f7f0f
+langcode: es
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - seven
+_core:
+  default_config_hash: IItlF4SKHgxduIysVQdvirDJ_v3HGuAviOkidAOJYRE
+id: seven_login
+theme: seven
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Inicio de sesión'
+  provider: user
+  label_display: visible
+visibility: {  }
